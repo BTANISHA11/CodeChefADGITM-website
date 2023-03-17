@@ -3,7 +3,7 @@ import styles from "../../styles/Depart.module.css";
 import Image from 'next/image';
 import MngtImg from "../../../public/assets/Mngt.png";
 import Team_img from "../../../public/assets/team.png";
-import Members from "../../members/TeamMemebers.jsx";
+import Members from "../../members/TeamMembers.jsx";
 
 
     const teamMembers = [
