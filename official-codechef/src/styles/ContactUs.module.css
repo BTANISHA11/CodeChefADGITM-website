@@ -84,10 +84,12 @@ flex-direction: column;
  .input1a input{
     width: 100%;
     background-color:  #E9F4FF;
-    border-top-style: hidden;
+    /* border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
-    border-bottom-style: #21658C;
+    border-bottom-style: #21658C; */
+    border: none;
+    border-bottom: 2px solid #21658C;
     margin-top: 1rem;
   
  }
@@ -106,12 +108,14 @@ flex-direction: column;
     font-size: larger;
  }
  .input2 input{
-    width: 91%;
+    width: 94%;
     background-color:  #E9F4FF;
-    border-top-style: hidden;
+    /* border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
-    border-bottom-style: #21658C;
+    border-bottom-style: #21658C; */
+    border: none;
+    border-bottom: 2px solid #21658C;
  }
  .input2 input:focus{
     outline: none;
