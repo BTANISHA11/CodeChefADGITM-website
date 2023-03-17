@@ -63,8 +63,8 @@
   padding: 10px 20px;
   background-color: #e1f0ff;
   width: 103px;
-  top: -24.5rem;
-  left: 30px;
+  top: -25.5rem;
+  left: 48px;
   height: 103px;
 }
 
@@ -98,6 +98,9 @@
     width: max-content;
     /* padding-left: 10px; */
     font-size: 17px;
+  }
+  .Events:first-child {
+    margin-bottom: 50px;
   }
   .BelowBorder {
     width: 90vw;
