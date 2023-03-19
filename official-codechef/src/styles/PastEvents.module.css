@@ -23,6 +23,7 @@
   flex-direction: row;
   align-items: center;
   column-gap: 30px;
+  margin-bottom: 30px;
 }
 
 .RightContent {
@@ -99,5 +100,8 @@
   }
   .main {
     margin-top: 4rem;
+  }
+  .Events {
+    margin-bottom: 50px;
   }
 }
