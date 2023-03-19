@@ -1,0 +1,113 @@
+.leader_grid{
+    width: 90%;
+   height: 200px;
+   padding: 20px;
+   margin-left: 70px;
+   
+}
+.grid{
+   display: grid;
+   grid-template-columns: 50% 50%  ;
+   grid-template-rows: 50% 50% ;
+   width: 90%;
+   height: 600px;
+   padding: 20px;
+   margin-left: 70px;
+}
+
+.leader_information{
+    display: grid;
+    height: 400px;
+    grid-template-columns: 50% 50% ;
+    background-color: bisque;
+}
+.member_information{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    background-color: bisque;
+}
+.leader_triangle{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 30px 30px 30px;
+    border-color: transparent transparent #E1F0FF transparent;
+    position: absolute;
+    margin-left: -43px;
+    top: 30%;
+    transform: rotate(268deg);
+}
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 30px 30px 30px;
+    border-color: transparent transparent #E1F0FF transparent;
+    position: absolute;
+    margin-left: -43px;
+    top: 60%;
+    transform: rotate(268deg);
+  }
+
+/*info side css*/
+.info{
+    background-color: #E1F0FF;
+    text-align: center;
+    font-size: 15px;
+}
+.teamInfo{
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.Leader_info{
+    background-color: #E1F0FF;
+    text-align: center;
+    font-size: 15px;
+}
+
+.line{
+    width: 80%;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+/*responsive*/
+@media only screen and (max-width: 750px) {
+    .leader_grid{
+        width: 100%;
+       height: 200px;
+       padding: 0px;
+       margin-left: 0px;
+       background-color: bisque;
+    }
+
+    .grid{ 
+        display: grid;
+        grid-template-columns: none  ;
+        grid-template-rows: none;
+        width: 100%;
+        height: 800px;
+        padding: 0px;
+        margin-left: 0px;
+
+    }
+
+    .leader_information{
+        display: grid;
+        height: 200px;
+        grid-template-columns: 50% 50% ;
+    }
+    .member_information{
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        height: 200px;
+    }
+    .leader_triangle{
+        display:none;
+    }
+    .triangle{
+        display: none;
+    }
+  }

@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from "../../styles/Depart.module.css";
 import Image from 'next/image';
-import MngtImg from "../../../public/assets/Mngt.png"
-import Team from "../../../public/assets/team.png"
+import MngtImg from "../../../public/assets/Mngt.png";
+import Team_img from "../../../public/assets/team.png";
+
 const Depart_Lead = () => {
   return (
     <>
@@ -64,7 +65,7 @@ const Depart_Lead = () => {
                 <div className={styles.incontent}>
                 <Image
             className={styles.img2}
-            src={Team}
+            src={Team_img}
             alt="Picture of the author"
             width={160}
             height={160}
@@ -77,7 +78,7 @@ const Depart_Lead = () => {
                 <div className={styles.incontent}>
                 <Image
             className={styles.img2}
-            src={Team}
+            src={Team_img}
             alt="Picture of the author"
             width={160}
             height={160}
@@ -90,7 +91,7 @@ const Depart_Lead = () => {
                 <div className={styles.incontent}>
                 <Image
             className={styles.img2}
-            src={Team}
+            src={Team_img}
             alt="Picture of the author"
             width={160}
             height={160}
@@ -103,7 +104,7 @@ const Depart_Lead = () => {
                 <div className={styles.incontent}>
                 <Image
             className={styles.img2}
-            src={Team}
+            src={Team_img}
             alt="Picture of the author"
             width={160}
             height={160}
