@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/PastEvents2.module.css";
+import styles from "../../styles/Upcoming.module.css";
 import CodeBlooded3 from "../../../public/images/Events/CodeBlooded3.png"
 import {
   BsFillArrowLeftCircleFill,
@@ -45,8 +45,7 @@ const UpcomingEvents = () => {
               <RxDotFilled color="#D9D9D9" size={30} />
             </div> */}
             <div className={styles.Text}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              Codechef is all set for some brainstorming works. Stay tuned with us for more : {")"}
             </div>
             <div className={styles.BelowBorder}>--</div>
           </div>
