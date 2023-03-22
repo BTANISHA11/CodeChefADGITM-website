@@ -44,8 +44,7 @@ const PastEvents = () => {
               <RxDotFilled color="#D9D9D9" size={30} />
             </div> */}
             <div className={styles.Text}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.
+              Our society is tirelessly working towards building quality coders. We have organised various successful events in past.
             </div>
             {/* <div className={styles.BottomIcon}>
               <BsFillArrowLeftCircleFill color="#3A8CBB" size={30} />
