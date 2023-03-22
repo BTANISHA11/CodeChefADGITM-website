@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className={styles.heroleft}>
         <div className={styles.herolefttext1}>Take a look at the <br/> logic in way</div>
         <div className={styles.herolefttext2}>What we Do</div>
-        <div className={styles.herolefttext3}>As a CODECHEF ADGITM we believe in growing together</div>
+        <div className={styles.herolefttext3}>CodeChef ADGITM is a close-knit community of diligent coders who come together and share best practices, new coding accomplishments, and plenty of resources to become the best problem solvers. </div>
         <button className={styles.heroleftbutton}>Get Started</button>
       </div>
       <div className={styles.heroright}>
@@ -63,7 +63,7 @@ const HeroSection = () => {
       Our Goal
       </div>
       <div className={styles.text}>
-      Our goal is to ensure that students love and explore with programming while getting lucrative jobs in the process.
+      To provide students with all the mentorship, resources, and opportunities they need to develop top-notch programming skills and compete on a global scale.
       </div>
     </div>
     <div className={styles.part2right}>

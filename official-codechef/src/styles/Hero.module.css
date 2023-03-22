@@ -5,7 +5,7 @@
 }
 .heroleft{
     width: 50%;
-    padding: 10rem 4rem;
+    padding: 5rem 4rem;
     /* border: 1px solid black; */
 }
 .herolefttext1{
@@ -282,7 +282,7 @@
 }
 
 .detailsImage2{
-    width: 70%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto
 }
@@ -366,7 +366,7 @@
     padding-right: 4rem;
 }
 .detailsImage{
-    width: 70%;
+    width: 60%;
     margin-left: auto;  
 }
 .part3right{
