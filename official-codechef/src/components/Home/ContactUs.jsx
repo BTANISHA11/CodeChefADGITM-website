@@ -18,13 +18,14 @@ const ContactUs = () => {
         <div className={styles.main}>
             <div className={styles.left}>
                 <p className={styles.lefthead}>Contact Information</p>
-                <Link href="https://maps.app.goo.gl/yGUXSmzyvBqqkneS9"><Image
+                <Link href="https://maps.app.goo.gl/yGUXSmzyvBqqkneS9">
+                    <div><Image
             className={styles.img}
             src={Map}
             alt="Picture of the map"
-            width={230}
+            width={250}
             height={160}
-            /></Link>
+            /></div></Link>
             <div className={styles.bottomcontent}>
             <div className={styles.icons}>
             <p><MdLocationOn /></p><p className={styles.icontext}>FC-26, Shastri Park, New Delhi - 110 053</p>
