@@ -68,7 +68,7 @@ const HeroSection = () => {
     </div>
     <div className={styles.part2right}>
     <Image
-    src="/goal.webp"
+    src="/images/Our Goals.png"
     alt="Our Goal"
     width={350}
     height={350}
@@ -80,7 +80,7 @@ const HeroSection = () => {
    <div className={styles.detailsPart3}>
     <div className={styles.part3left}>
     <Image
-    src="/joinus.webp"
+    src="/images/Why to join us.png"
     alt="How we work"
     width={350}
     height={350}
