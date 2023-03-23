@@ -36,7 +36,7 @@ const HeroSection = () => {
     <p className={styles.pastSponsorText}>OUR PAST SPONSORS</p>
     </div>
    
-   <div className={styles.detailsPart1}>
+   <div className={styles.detailsPart1} id="about">
     <div className={styles.part1left}>
     <Image
     src="/wework.webp"

@@ -10,7 +10,7 @@ import Link from 'next/link';
 const ContactUs = () => {
   return (
     <IconContext.Provider value={{color:"white", }}>
-    <div className={styles.contact}>
+    <div className={styles.contact} id="contact-us">
         <div className={styles.head}>
         <p className={styles.heading}> Get In Touch!</p>
         <p className={styles.sub_heading}>Contact us for any queries.</p>
