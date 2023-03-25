@@ -17,7 +17,7 @@ import AnshImg from "../../../public/images/Team/Core_Team/Ansh.jpg";
 const Depart_Lead = () => {
   return (
     <>
-    <div className={styles.department}>
+    <div className={styles.department} id="departments">
         <p className={styles.heading}>Our Department</p>
         <div className={styles.main}>
             <div className={styles.card}>
@@ -107,7 +107,7 @@ const Depart_Lead = () => {
     </div>
 
     {/* Leadership Team */}
-    <div className={styles.leadership}>
+    <div className={styles.leadership} id="team">
      <p className={styles.heading}>Our Leadership Team</p>
      
         <div className={styles.bg}>
