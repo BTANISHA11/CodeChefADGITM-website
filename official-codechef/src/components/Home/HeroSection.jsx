@@ -3,7 +3,7 @@ import heroBg from '../../../public/heroBg.png';
 import Image from 'next/image';
 import styles from "../../styles/Hero.module.css";
 import pastSponsorBg from '../../../public/pastSponsorBg.png';
-
+import societyMeet from "../../../public/images/Society Meet/SocietyMeet2.jpg";
 const HeroSection = () => {
   return (  
     <>
@@ -39,7 +39,7 @@ const HeroSection = () => {
    <div className={styles.detailsPart1} id="about">
     <div className={styles.part1left}>
     <Image
-    src="/wework.webp"
+    src={societyMeet}
     alt="How we work"
     width={400}
     height={400}
