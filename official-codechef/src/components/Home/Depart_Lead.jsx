@@ -100,6 +100,46 @@ const Depart_Lead = () => {
             height={90}
             />
                 </div>
+                <p className={styles.sub_heading}>MARKETING</p>
+            </div>
+
+            <div className={styles.card}>
+            <Image
+            className={styles.imgRing}
+            src={RingsImg}
+            alt="Picture of the author"
+            width={220}
+            height={220}
+            />
+                <div className={styles.depImg}>
+                <Image
+            className={styles.img}
+            src={TechImg}
+            alt="Picture of the author"
+            width={90}
+            height={90}
+            />
+                </div>
+                <p className={styles.sub_heading}>VIDEO EDITING</p>
+            </div>
+
+            <div className={styles.card}>
+            <Image
+            className={styles.imgRing}
+            src={RingsImg}
+            alt="Picture of the author"
+            width={220}
+            height={220}
+            />
+                <div className={styles.depImg}>
+                <Image
+            className={styles.img}
+            src={TechImg}
+            alt="Picture of the author"
+            width={90}
+            height={90}
+            />
+                </div>
           
             <p className={styles.sub_heading}>CONTENT</p>
             </div>

@@ -9,7 +9,7 @@ import { IconContext } from 'react-icons';
 import Link from 'next/link';
 const ContactUs = () => {
   return (
-    <IconContext.Provider value={{color:"white", }}>
+    <IconContext.Provider value={{color:"white ", }}>
     <div className={styles.contact} id="contact-us">
         <div className={styles.head}>
         <p className={styles.heading}> Get In Touch!</p>
