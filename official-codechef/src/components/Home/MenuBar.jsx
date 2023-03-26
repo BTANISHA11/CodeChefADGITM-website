@@ -4,7 +4,7 @@ import styles from "../../styles/MenuBar.module.css";
 const MenuBar = () => {
   return (
     <div className={styles.main}>
-      <div className={styles.Container}>``
+      <div className={styles.Container}>
         <div><a href="#about">About</a></div>
         <div><a href="#departments">Departments</a></div>
         <div><a href="team">Our Team</a></div>
