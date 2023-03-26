@@ -49,7 +49,13 @@ const Members = ({leader_name, leader_info, leader_tech_stack, leader_img_locati
      <div className={styles.Teampage}>
      <div className={styles.leader_grid}>
         <div className={styles.leader_information}>
-        <img src={leader_img_location} className={styles.leader_img}/>
+        {/* <img src={leader_img_location} className={styles.leader_img}/> */}
+        <div className={styles.leader_img} style={{
+          backgroundImage: `url(${leader_img_location})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }} />
           <Leader
             leader_member_name={leader_name}
             leader_info={leader_info}
@@ -61,7 +67,13 @@ const Members = ({leader_name, leader_info, leader_tech_stack, leader_img_locati
       <div className={styles.grid}>
         {members.map((member, index) => (
           <div key={index} className={styles.member_information}>
-            <img src={member.img} alt={member.name} className={styles.member_img}/>
+            {/* <img src={member.img} alt={member.name} className={styles.member_img}/> */}
+            <div className={styles.member_img} style={{
+          backgroundImage: `url(${member.img})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }} />
             <Member
               team_member_name={member.name}
               tech_stack={member.stack}

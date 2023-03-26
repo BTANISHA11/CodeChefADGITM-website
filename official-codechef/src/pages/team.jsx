@@ -15,7 +15,7 @@ const teamMembers = [
     
     The Event Lead of Codechef ADGITM.... Himanshu Gupta 👏🥳
     `,
-    img: "./images/Team/Team Leads/Himanshu.jpg"
+    img: "./images/Team/Team_Leads/Himanshu.jpg"
   },
   {
     name: "Aashi Aggarwal",
@@ -25,7 +25,7 @@ const teamMembers = [
     Presenting to you the person who coordinate events with the president, oversee the internal matters with the leads…😮‍💨the individual who plans, ensures the team meets its targets and help us remain successful. 🥹
     
     Vice President– Aashi Aggarwal✨🌱`,
-    img: "./images/Team/Core Team/Aashi.jpg"
+    img: "./images/Team/Core_Team/Aashi.jpg"
   },
   {
     name: "Hitansh Gupta",
@@ -36,50 +36,50 @@ const teamMembers = [
     
     The General Secretary of Codechef ADGITM… Mr. Hitansh Gupta...✨🎉🥳
     `,
-    img: "./images/Team/Core Team/Hitansh.jpg"
+    img: "./images/Team/Core_Team/Hitansh.jpg"
   },
   {
     name: "Naman Patel",
     stack: "Video editing Lead",
     info: "lorem ipsum",
-    img: "./images/Team/Team Leads/Naman.jpg"
+    img: "./images/Team/Team_Leads/Naman.jpg"
   },
   {
     name: " Archita Jain",
     stack: "Management Lead",
     info: "lorem ipsum",
-    img: "./images/Team/Team Leads/Archita.jpg"
+    img: "./images/Team/Team_Leads/Archita.jpg"
   },
   {
     name: "Tanisha Bansal",
     stack: "Marketing Lead ",
     info: `With this, give a heartfelt welcome to our Internal affairs lead, "Ms. Tanisha Bansal" & "Mr. Veer Yadav". They are meticulous, tactical, and an excellent communicator who gets the job done.
     💫They keeps themselves on top of budding trends and sees opportunities to capitalize on them, which is not an easy feat to achieve.💫`,
-    img: "./images/Team/Team Leads/Tanisha.jpg"
+    img: "./images/Team/Team_Leads/Tanisha.jpg"
   },
   {
     name: "Armaan Dutt",
     stack: "Technical Lead",
     info: "lorem ipsum",
-    img: "./images/Team/Team Leads/Armaan.jpg"
+    img: "./images/Team/Team_Leads/Armaan.jpg"
   },
   {
     name: "Vanshika Goel",
     stack: "Graphics Lead",
     info: "lorem ipsum",
-    img: "./images/Team/Team Leads/Vanshika.png"
+    img: "./images/Team/Team_Leads/Vanshika.png"
   },
   {
     name: "Alokita Vij",
     stack: "Content Lead",
     info: "lorem ipsum",
-    img: "./images/Team/Team Leads/Alokita.jpg"
+    img: "./images/Team/Team_Leads/Alokita.jpg"
   },
   {
     name: "Ansh Sachdeva",
     stack: "Media Outreach head",
     info: "lorem ipsum",
-    img: "./images/Team/Core Team/Ansh.jpg"
+    img: "./images/Team/Core_Team/Ansh.jpg"
   },
 ];
 
@@ -93,7 +93,7 @@ const ManagementPage = () => {
     
     Please give a round of applause to the president of *Codechef ADGITM* ... *Kartikey Gupta* 👏🏻🤩" 
     leader_tech_stack="DSA" 
-    leader_img_location="./images/Team/Core Team/Kartikey.jpg" 
+    leader_img_location="./images/Team/Core_Team/Kartikey.jpg" 
     members={teamMembers} />
 </>
 )
