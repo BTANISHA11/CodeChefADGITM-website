@@ -66,10 +66,10 @@
   align-items: center;
 }
 .quotes{
- /* width:fit-content; */
- color: red;
- padding: auto;
- background-color: black;
+ color:rgba(255, 255, 255, 0.889);
+ margin: 1rem;
+
+ 
  
 }
 .name {
