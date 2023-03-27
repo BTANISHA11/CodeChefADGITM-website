@@ -65,12 +65,8 @@
   flex-direction: column;
   align-items: center;
 }
-.quotes{
- /* width:fit-content; */
- color: red;
- padding: auto;
- background-color: black;
- 
+.quoteHead{
+  color: white;
 }
 .name {
   color: white;
