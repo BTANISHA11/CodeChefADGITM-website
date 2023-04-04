@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Footer.module.css";
 import { MdLocationOn, MdCall } from "react-icons/md";
+import Link from "next/link";
 import {
   AiFillFacebook,
   AiOutlineTwitter,
@@ -43,13 +44,17 @@ const Footer = () => {
                       <AiOutlineTwitter size={20} color="#194EB1" />
                     </div>
                     <div>
-                      <AiFillLinkedin size={20} color="#194EB1" />
+                    <Link href="https://www.linkedin.com/company/codechefadgitm"> <AiFillLinkedin size={20} color="#194EB1" />
+                    </Link>
+
                     </div>
                     <div>
-                      <AiFillYoutube size={20} color="#194EB1" />
+                      <Link href="https://www.youtube.com/channel/UCym7YW4jgCr06rnxl9nBBTw"><AiFillYoutube size={20} color="#194EB1" />
+                      </Link>
                     </div>
                     <div>
-                      <BsInstagram size={20} color="#194EB1" />
+                      <Link href="https://www.instagram.com/codechefadgitm/"><BsInstagram size={20} color="#194EB1" />
+                      </Link>
                     </div>
                     <div>
                       <AiOutlineGooglePlus size={20} color="#194EB1" />
