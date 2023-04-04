@@ -32,7 +32,8 @@ const Footer = () => {
                 </div>
                 <div className={styles.icon}>
                   <MdCall size={25} color="#194EB1" />
-                  (123) 456-7890
+                  {/* (123) 456-7890 */}
+                  <a href="tel:+(91)8475008968"></a>
                 </div>
                 <div className={styles.mediaCon}>
                   <div className={styles.media}>
